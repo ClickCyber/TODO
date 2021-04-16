@@ -2,6 +2,6 @@
 TODO WebApp
 <br>
 
-<img src="iamge/0.png"/>
-<img src="iamge/1.png"/>
-<img src="iamge/2.png"/>
+<img src="image/0.png"/>
+<img src="image/1.png"/>
+<img src="image/2.png"/>
