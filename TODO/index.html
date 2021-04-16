@@ -1,0 +1,38 @@
+<html lang="he" dir="rtl">
+<head>
+
+  <title>TODO - List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="app.js"></script>
+</head>
+
+<body>
+<div class="jumbotron">
+  <h2 style="text-align:center;">TODO - טבלת משימות</h2>
+  <div class="alert alert-success" id="alert" style="display:none;">
+  <strong>מצויין !</strong> המשימה <a href="#" class="alert-link">נמחקה מתוך רשימה</a>.
+  </div>
+  
+  <div class="alert alert-danger" id="alert_input" style="display:none;">
+  <strong>שגיאה!</strong> ייתכן <a href="#" class="alert-link">שהתיבה ריקה נסה שנית</a>.
+  </div>
+
+</div>
+<form method="POST">
+<div class="container" style="position:relative;left:25px;">
+  
+  <ul class="list-group">
+	<div id="msg"></div>
+  <input type="text" class="form-control list-group-item" id="text" placeholder="הכנס משימה">
+  <button type="submit" class="btn btn-info btn-block" id="submit">שלח</button>
+  <form>
+  </ul>
+
+</div>
+</body>
+
+</html>
